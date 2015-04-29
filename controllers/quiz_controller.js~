@@ -12,9 +12,3 @@ exports.answer = function(req, res) {
 	res.render('quizes/answer', {respuesta: 'Incorrecto'});
 	}
 };
-
-// GET /authors/author
-
-exports.author = function(req, res) {
-	res.render('authors/author');
-};
